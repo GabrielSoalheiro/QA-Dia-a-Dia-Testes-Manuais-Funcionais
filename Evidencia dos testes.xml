@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<project>
+    <projectId>10000</projectId>
+    <projectKey>KAN</projectKey>
+    <exportDate>2023-11-11 07:38:19 UTC</exportDate>
+    <folders/>
+    <testCases>
+        <testCase id="111935392" key="KAN-T1" paramType="TEST_DATA">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>Gabriel Soalheiro</createdBy>
+            <createdOn>2023-11-11 07:22:16 UTC</createdOn>
+            <customFields/>
+            <issues/>
+            <labels/>
+            <name><![CDATA[Teste Tela]]></name>
+            <owner>62c351a21bb561c337950f89</owner>
+            <priority><![CDATA[High]]></priority>
+            <status><![CDATA[Draft]]></status>
+            <parameters/>
+            <testDataWrapper>
+                <testDataRow>
+                    <testDataColumns>
+                        <testData index="0">
+                            <name><![CDATA[SERVIDOR QA]]></name>
+                            <type><![CDATA[FREE_TEXT_INPUT]]></type>
+                            <value><![CDATA[199.199.15.12]]></value>
+                        </testData>
+                    </testDataColumns>
+                </testDataRow>
+            </testDataWrapper>
+            <testScript type="steps">
+                <steps>
+                    <step index="0">
+                        <customFields/>
+                        <description><![CDATA[<em>Acessar a url&nbsp;</em>]]></description>
+                        <expectedResult><![CDATA[usu&aacute;rio deve visualizar tela de login]]></expectedResult>
+                        <testData><![CDATA[<var>SERVIDOR QA</var>&nbsp;]]></testData>
+                    </step>
+                    <step index="1">
+                        <customFields/>
+                        <description><![CDATA[Usu&aacute;rio digita nome e senha&nbsp;]]></description>
+                        <expectedResult><![CDATA[Conseguir acessar]]></expectedResult>
+                        <testData><![CDATA[&quot;Mariana&quot; &quot;123456&quot;]]></testData>
+                    </step>
+                </steps>
+            </testScript>
+        </testCase>
+        <testCase id="111935422" key="KAN-T2">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>Gabriel Soalheiro</createdBy>
+            <createdOn>2023-11-11 07:25:19 UTC</createdOn>
+            <customFields/>
+            <issues>
+                <issue>
+                    <key>KAN-1</key>
+                    <summary><![CDATA[Login]]></summary>
+                </issue>
+            </issues>
+            <labels/>
+            <name><![CDATA[Teste login]]></name>
+            <owner>62c351a21bb561c337950f89</owner>
+            <priority><![CDATA[Normal]]></priority>
+            <status><![CDATA[Draft]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="steps">
+                <steps>
+                    <step index="0">
+                        <customFields/>
+                        <description><![CDATA[Tela de login]]></description>
+                        <expectedResult><![CDATA[Possibilidade de login por tela do facebook<br><br>]]></expectedResult>
+                        <testData><![CDATA[&quot;Alvaro&quot; &quot;1452665&quot;]]></testData>
+                    </step>
+                    <step index="1">
+                        <customFields/>
+                        <description><![CDATA[Acesso em uma nova aba]]></description>
+                        <expectedResult><![CDATA[conseguir abrir por uma nova aba]]></expectedResult>
+                    </step>
+                </steps>
+            </testScript>
+        </testCase>
+    </testCases>
+</project>
